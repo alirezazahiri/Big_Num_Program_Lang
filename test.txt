@@ -1,0 +1,11 @@
+x = 5;
+x = x-1;
+b = 5;
+iszero(x,b);
+goto(b,2);
+show(x);
+x = 60;
+a = 10;
+x = x-a;
+goto(b, 9);
+show(x);
